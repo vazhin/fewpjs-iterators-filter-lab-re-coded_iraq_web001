@@ -8,5 +8,5 @@ function fuzzyMatch(arr, string) {
 }
 
 function matchName(arr, string) {
-  
+
 }
