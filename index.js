@@ -8,5 +8,5 @@ function fuzzyMatch(arr, string) {
 }
 
 function matchName(arrOfObjects, string) {
-
+  return arrOfObjects.filter(obj => obj.name === string)
 }
