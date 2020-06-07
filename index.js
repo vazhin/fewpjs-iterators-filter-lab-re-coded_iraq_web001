@@ -4,5 +4,5 @@ function findMatching(arr, string) {
 }
 
 function fuzzyMatch(arr, string) {
-
+  return arr.filter(element => element.startsWidth(string))
 }
