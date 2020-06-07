@@ -7,6 +7,6 @@ function fuzzyMatch(arr, string) {
   return arr.filter(element => element.startsWith(string))
 }
 
-function matchName(arr, string) {
+function matchName(arrOfObjects, string) {
 
 }
